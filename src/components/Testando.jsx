@@ -32,6 +32,10 @@ Button with data-bs-target
 
 
  export function OffCanvas1 ( ) {
-  return <h3> segundo teste  jonas melhor instrutor :D</h3>
+  return <h3> segundo teste  jonas melhor instrutor :</h3>
 }
 
+export default function () {
+  return <h2>Comp Padrão</h2>
+  }
+  

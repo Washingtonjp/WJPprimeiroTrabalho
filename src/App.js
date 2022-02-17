@@ -1,6 +1,6 @@
 import './App.css';
 import Testando from './components/Primeiro';
-import {OffCanvas , OffCanvas1} from './components/Testando';
+import Banana , {OffCanvas , OffCanvas1} from './components/Testando';
 
 function App() {
   return (
@@ -8,6 +8,7 @@ function App() {
 <Testando />
 <OffCanvas/>
 <OffCanvas1/>
+<Banana/>
 </div>
   );
 }
