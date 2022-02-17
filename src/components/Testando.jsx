@@ -1,4 +1,5 @@
-function OffCanvas () {
+
+export function OffCanvas () {
 return <div> <a class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
 Link with href
 </a>
@@ -29,4 +30,8 @@ Button with data-bs-target
 </div></div>
 }
 
-export default OffCanvas;
+
+ export function OffCanvas1 ( ) {
+  return <h3> segundo teste  jonas melhor instrutor :D</h3>
+}
+

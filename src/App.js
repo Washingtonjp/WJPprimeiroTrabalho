@@ -1,12 +1,13 @@
 import './App.css';
 import Testando from './components/Primeiro';
-import OffCanvas from './components/Testando';
+import {OffCanvas , OffCanvas1} from './components/Testando';
 
 function App() {
   return (
 <div> washington
 <Testando />
 <OffCanvas/>
+<OffCanvas1/>
 </div>
   );
 }
