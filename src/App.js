@@ -20,8 +20,8 @@ function App() {
 <MinMax  min ={5}  max= {10}/>
 <Titulo principal = "ola" secundario = "ola tudo bem"/>
 <Botao />
-<Contador inicial ={10} passo ={10} />
-<Contador inicial ={0} passo ={1} />
+<Contador inicial ={10} passo ={10} limitemin = {0}  limitemax = {100}/>
+<Contador inicial ={0} passo ={1} limitemin = {0}  limitemax = {10}/>
 </div>
   );
 }

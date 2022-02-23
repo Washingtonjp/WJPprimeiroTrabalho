@@ -5,7 +5,7 @@ function Contador (props)   {
     const [numero , setNumero] = useState(props.inicial)
 
     const incremento = () => { 
-        if (numero >= 100  ) {
+        if (numero >= props.limitemax ) {
             alert ("passou do limite de 100 amigo")
              return
         }
@@ -13,7 +13,7 @@ function Contador (props)   {
     }
     
     function decremento() {
-        if (numero == 0) {
+        if (numero <= props.limitemin ) {
             alert("ja está negativo amigo")
             return
         }
