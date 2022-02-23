@@ -5,6 +5,7 @@ import {Magica , Magica1 , Magica2 } from './components/estiloss/Estilos'
 import MinMax  from './components/MinMax';
 import Titulo from './components/Titulo';
 import Botao from './components/Botao';
+import Contador from './components/Contador'
 function App() {
   return (
 <div> washington
@@ -19,6 +20,8 @@ function App() {
 <MinMax  min ={5}  max= {10}/>
 <Titulo principal = "ola" secundario = "ola tudo bem"/>
 <Botao />
+<Contador inicial ={10} passo ={10} />
+<Contador inicial ={0} passo ={1} />
 </div>
   );
 }
