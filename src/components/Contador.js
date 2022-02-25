@@ -14,7 +14,7 @@ function Contador (props)   {
     
     function decremento() {
         if (numero <= props.limitemin ) {
-            alert("ja está negativo amigo")
+            alert("ja está negativomy amigo")
             return
         }
         setNumero(numero - props.passo)
